@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+}
+body{
+    background-image: url(./fondo.jpg);
+}
+#board{
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.cells{
+    text-align: center;
+    border: solid 2px black;
+    display: flex;
+    width: 30%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    cursor: pointer;
+}
+.centrar{
+    text-align: center;
+}
